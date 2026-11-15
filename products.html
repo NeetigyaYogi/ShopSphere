@@ -25,6 +25,16 @@
             <img src="images/shoes.jpg" alt="Premium Shoes">
             <h3>Puma badminton shoes</h3>
             <p>₹3,499</p>
+        <label for="quantity">Quantity:</label>
+           <select id="quantity" name="quantity">
+              <option value="1" selected>1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+           </select>
+
+        <button type="button">Add to Cart</button>
         </div>
         <ul>
             <li>Free Delivery</li>
@@ -36,18 +46,7 @@
             <li>Add to Cart</li>
             <li>Complete Payment</li>
         </ol>
-        <label for="quantity">Quantity:</label>
-
-           <select id="quantity" name="quantity">
-              <option value="1" selected>1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-           </select>
-
-<button type="button">Add to Cart</button>
-        <form>
+        <form action="products.html" method="GET">
             <label for="product-search">Search products</label>
             <input id="product-search" type="text" name="search" 
             placeholder="Search products..." required>
